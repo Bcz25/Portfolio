@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-color: #c7d1de;
+  font-family:'Nunito','Lucida Sans', Verdana, sans-serif ;
+
+}
+
+.nav ul { 
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+}
+
+.nav li {
+  padding: 10px;
+  align-content: space-evenly;
+  background-color: #4088a9;
+  justify-items: center;
+  
+}
+
+.nav a {
+  font-weight: bolder;
+  color: #d2e0e5;
+  text-decoration: none;
+}
+
+.nav li:hover{
+  background-color: rgba(238, 147, 10, 0.5);
+  
+}
+
+.main-header {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-color: #a8aeb6;
+  background-image: url("../assets/portfolio-background2.jpeg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position:center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.me {
+  position: absolute;
+  top: 95px;
+  left: 5px;
+  box-shadow: 5px 5px 5px #3e4b56;
+  border: 2px solid #3e4b56;
+  border-radius: 5px;
+  width: 150px;
+}
+
+h1 {
+  display: inline;
+  padding: 5px;
+  background-color: #4088a9;
+  border-radius: 5px;
+  color: #d2e0e5;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.content-container{
+  max-width: 100%;
+  margin: 0px 20px 0px 20px;
+  padding: 0 5px;
+
+}
+
+.content h2{
+ display: inline-flex;
+ padding: 10px;
+ font-size: 50px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: normal;
+ color: #d2e0e5;
+ background-color: #29627d;
+ box-shadow: 5px 5px 5px #3e4b56;
+}
+
+.content{
+  padding: 10px;
+  text-align: start;
+  font-size: 20px;
+  
+}
+
+.about-me{
+  display: flex;
+  justify-content: end;
+  text-align: left;
+  line-height: 1.5;
+  padding: 20px;
+  border-left: 5px solid #29627d;
+  border-bottom: 5px solid #29627d;
+  justify-content: end;
+ }
+
+ .app-container{
+  height: 900px;
+  width: 100%;
+ }
+
+ .devsoc{
+  border: 5px solid#01131a;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  height: 500px;
+  width: 100%;
+  margin-top: 25px;
+  background-image: url("../assets/devsoc-work.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 25px;
+ }
+
+ .devsoc a{
+  font-weight: normal;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  margin-left: 10px;
+  color: #01131a;
+  text-decoration: none;
+  background-color: #c8dae2;
+  box-shadow: 5px 5px 5px #3e4b56;
+ }
+
+ 
+.ai-trainer{
+ display: flex;
+ justify-content: start;
+ align-items: end;
+ height: 300px;
+ width: 45%;
+ margin-left: 25px;
+ background-color: #d4d7da;
+ background-image: url("../assets/Ai-trainer.jpeg");
+ background-size: contain;
+ background-blend-mode: multiply;
+ background-position: center;
+ border: 5px solid #01131a;
+ float:inline-end;
+}
+
+.slope{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  height: 300px;
+  width: 45%;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-color: #d4d7da;
+  background-image: url("../assets/slope-tracker.jpeg");
+  background-size: contain;
+  background-blend-mode: multiply;
+  background-position: center;
+  border: 5px solid #01131a;
+  float: left;
+}
+
+.ai-trainer h3, .slope h3{
+  font-weight: normal;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 10px;
+  color: #01131a;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #c8dae2;
+  box-shadow: 5px 5px 5px #3e4b56;
+}
+
+.devsoc a:hover{
+  background-color: rgba(53, 240, 240, 0.5);
+}
+
+.ai-trainer h3:hover, .slope h3:hover{
+  background-color: rgba(53, 240, 240, 0.5);
+}
+
+.contact-info{
+  margin-left: 200px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+ .contact-info li{
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 5px solid #29627d;
+  text-decoration: none;
+ }
+
+ 
+ 
