@@ -5,7 +5,7 @@ Welcome to my portfolio! Here you will be able to get to know me and see what pr
 ## Installation
 
 None required. 
-Input into web browser: https://bcz25.github.io/Myportfolio/
+Input into web browser: https://bcz25.github.io/Portfolio/
 
 ## Usage
 
